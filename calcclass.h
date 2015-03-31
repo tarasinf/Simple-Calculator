@@ -11,6 +11,7 @@ public:
 
     //check change_2
     int i;
+    int b;
 
 };
 
