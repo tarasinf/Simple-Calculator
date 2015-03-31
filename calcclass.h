@@ -12,6 +12,8 @@ public:
     //check change_2
     int i;
     int b;
+    int k;
+    //Add new variable 'k'
 
 };
 
