@@ -14,6 +14,8 @@ public:
     int b;
     int k;
     //Add new variable 'k'
+    int c;
+    //Add new variable 'c'
 
 };
 
