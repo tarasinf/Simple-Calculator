@@ -2,6 +2,10 @@
 #define TESTUICLASS_H
 
 #include <QObject>
+#include <QtTest>
+#include <QtCore>
+#include <QtGui>
+#include "uiclass.h"
 
 class TestUiClass : public QObject
 {
@@ -13,6 +17,9 @@ public:
 signals:
 
 public slots:
+private slots:
+    void testForm();
+    void testComponent();
 };
 
 #endif // TESTUICLASS_H

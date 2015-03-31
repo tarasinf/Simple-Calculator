@@ -14,13 +14,15 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         uiclass.cpp \
-    mainclass.cpp \
     calcclass.cpp \
-    testcalcclass.cpp
+    testcalcclass.cpp \
+    testuiclass.cpp \
+    mainclass.cpp
 
 HEADERS  += uiclass.h \
-    mainclass.h \
     calcclass.h \
-    testcalcclass.h
+    testcalcclass.h \
+    testuiclass.h \
+    mainclass.h
 
 FORMS    += uiclass.ui

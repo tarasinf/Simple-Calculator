@@ -10,3 +10,19 @@ TestUiClass::~TestUiClass()
 
 }
 
+void TestUiClass::testForm()
+{
+    UiClass w;
+    w.show();
+
+    QVERIFY( w.isEnabled());
+    QVERIFY( w.isVisible());
+}
+
+void TestUiClass::testComponent()
+{
+
+}
+
+
+
