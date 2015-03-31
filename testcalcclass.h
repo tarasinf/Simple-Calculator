@@ -19,7 +19,11 @@ signals:
 
 public slots:
 private slots:
-    void testAdd();
+    void testSum();
+   // void testSub();
+   // void testMul();
+    void testDiv();
+
 };
 
 #endif // TESTCALCCLASS_H
